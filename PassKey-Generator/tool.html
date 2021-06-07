@@ -1,0 +1,70 @@
+<html>
+<title>Code Generator</title>
+<script src="jquery.1.11.1.js"></script>
+<script src="data.js"></script>
+<br><br>
+<center>
+<div id="encod_div">
+<form accept="#" method="post" id="encod" class="encod" >
+ENCODE 
+<br><br> 
+<input type="text" size="2" id="en_0" class="encod"> -
+<input type="text" size="2" id="en_1" class="encod"> -
+<input type="text" size="2" id="en_2" class="encod"> -
+<input type="text" size="2" id="en_3" class="encod"> -
+<input type="text" size="2" id="en_4" class="encod"> -
+<input type="text" size="2" id="en_5" class="encod"> -
+<input type="text" size="2" id="en_6" class="encod"> -
+<input type="text" size="2" id="en_7" class="encod"> -
+<input type="text" size="2" id="en_8" class="encod"> -
+<input type="text" size="2" id="en_9" class="encod"> -
+<input type="text" size="2" id="en_10" class="encod"> -
+<input type="text" size="2" id="en_11" class="encod"> -
+<input type="text" size="2" id="en_12" class="encod"> -
+<input type="text" size="2" id="en_13" class="encod"> -
+<input type="text" size="2" id="en_14" class="encod"> -
+<input type="text" size="2" id="en_15" class="encod"> -
+<input type="text" size="2" id="en_16" class="encod"> -
+<input type="text" size="2" id="en_17" class="encod"> -
+<input type="text" size="2" id="en_18" class="encod"> -
+<input type="text" size="2" id="en_19" class="encod">
+<br><br>
+Encrypt :<input type="text" size="2" placeholder="key" id="e_key">
+<input type="button" id="en_gen" value="Generate" name="en_gen" onclick="en_gen_click()"/>
+<br><br>
+<div id="e_code" name="e_code"></div>
+</form>
+</div>
+<br><br>
+
+<form accept="#" method="post" id="decod" class="decod" >
+DECODE
+<br><br> 
+<input type="text" size="2" id="de_0"> -
+<input type="text" size="2" id="de_1"> -
+<input type="text" size="2" id="de_2"> -
+<input type="text" size="2" id="de_3"> -
+<input type="text" size="2" id="de_4"> -
+<input type="text" size="2" id="de_5"> -
+<input type="text" size="2" id="de_6"> -
+<input type="text" size="2" id="de_7"> -
+<input type="text" size="2" id="de_8"> -
+<input type="text" size="2" id="de_9"> -
+<input type="text" size="2" id="de_10"> -
+<input type="text" size="2" id="de_11"> -
+<input type="text" size="2" id="de_12"> -
+<input type="text" size="2" id="de_13"> -
+<input type="text" size="2" id="de_14"> -
+<input type="text" size="2" id="de_15"> -
+<input type="text" size="2" id="de_16"> -
+<input type="text" size="2" id="de_17"> -
+<input type="text" size="2" id="de_18"> -
+<input type="text" size="2" id="de_19">
+<br><br>
+Decrypt :<input type="text" size="2" placeholder="key" id="d_key">
+<input type="button" id="de_gen" value="View"  name="de_gen" onclick="de_gen_click()">
+<br><br>
+<div id="d_code" name="d_code"></div>
+</form>
+</center>
+</html>
